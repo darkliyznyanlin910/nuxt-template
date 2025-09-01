@@ -37,7 +37,7 @@ export const auth = betterAuth({
   },
   plugins: [
     openAPI({
-      path: "/api/docs",
+      path: "/docs",
     }),
   ],
 });
